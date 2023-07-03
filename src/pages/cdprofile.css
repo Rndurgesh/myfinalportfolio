@@ -1,0 +1,32 @@
+.cd {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 75%;
+  padding: 10px;
+  margin-top: -30px;
+}
+.cdhead {
+  font-size: 24px;
+  text-align: center;
+  background-color: rgb(226, 223, 223);
+  width: 200px;
+  padding: 5px 12px;
+  margin-bottom: 60px;
+}
+
+.cdprof {
+  margin: 0 auto;
+  display: flex;
+  width: 75%;
+  justify-content: space-evenly;
+}
+.cdimg {
+  width: 220px;
+  height: 200px;
+  border-radius: 10px;
+  border: 1px solid rgb(227, 221, 221);
+  padding: 20px;
+  margin-bottom: 40px;
+}

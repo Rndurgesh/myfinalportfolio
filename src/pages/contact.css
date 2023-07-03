@@ -1,0 +1,74 @@
+.c {
+  width: 75%;
+  margin: 0 auto;
+}
+.c-name {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 80px;
+  background-color: rgb(226, 223, 223);
+  width: 120px;
+  padding: 5px 12px;
+  margin-bottom: 10px;
+}
+.c-name2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.cont {
+  display: flex;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+.c-img {
+  height: 400px;
+}
+.c-form {
+  width: 50%;
+  padding-right: 10px;
+}
+.cfele {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  justify-content: space-between;
+}
+
+.cfele input,
+textarea,
+button {
+  padding: 12px 10px;
+}
+.ctext {
+  padding: 10px 10px;
+}
+.formi {
+  border: 1px solid rgb(186, 182, 182);
+}
+textarea {
+  height: 150px;
+  border: 1px solid rgb(186, 182, 182);
+}
+.sbutton {
+  border: 1px solid rgb(186, 182, 182);
+  background-color: rgb(27, 29, 31);
+  height: 50px;
+  font-size: 18px;
+  background-color: black;
+}
+.sbutton:hover {
+  background-color: black;
+  color: white;
+}
+.footer {
+  margin-top: 40px;
+  display: flex;
+  margin-top: 20px;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(185, 180, 180));
+  color: black;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}

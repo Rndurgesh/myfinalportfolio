@@ -1,0 +1,81 @@
+.main {
+  width: 75%;
+  margin: 0 auto;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hl {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* profile photo */
+.avatar {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+.avatar_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-blend-mode: multiply; */
+  box-shadow: inset 0 0 0 6px hsla(0, 0%, 100%, 0.3);
+  background-position: 50%;
+  border-top-left-radius: 60%;
+  border-top-right-radius: 40% 30%;
+  border-bottom-right-radius: 30% 70%;
+  border-bottom-left-radius: 70% 40%;
+  overflow: hidden;
+  animation: morph 8s ease-in-out 1s infinite;
+  background-image: url("https://tokyo-nextjs.netlify.app/img/slider/1.jpg");
+}
+
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+.hr {
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hr-h {
+  font-size: 30px;
+  font-weight: 400;
+}
+.hr-name {
+  font-size: 45px;
+  font-weight: 500;
+}
+.hr-ab {
+  margin-top: -20px;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.hr-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 400px;
+}
