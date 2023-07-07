@@ -41,8 +41,9 @@
 }
 .cdcont:hover {
   transition: ease 400ms;
-  width: 305px;
-  height: 245px;
+  width: 310px;
+  height: 250px;
+  background-color: black;
 }
 .cdimg {
   width: 250px;
