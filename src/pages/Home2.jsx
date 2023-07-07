@@ -1,6 +1,9 @@
 import React from "react";
 import "./Home2.css";
 import { Typewriter } from "react-simple-typewriter";
+import { FiGithub } from "react-icons/fi";
+import { FiLinkedin } from "react-icons/fi";
+import { BsInstagram } from "react-icons/bs";
 
 export default function Home2() {
   return (
@@ -12,14 +15,14 @@ export default function Home2() {
       </div>
       <div className="hr">
         <div className="hr-h">Hello 👋, I am </div>
-        <div className="hr-name">
+        <div className="hr-name  ">
           <span>DURGESH SOLANKE </span>
         </div>
         <br />
-        <div className="hr-ab">
+        <div className="hr-ab ">
           <Typewriter
             words={[
-              "REACT Developer",
+              "React Developer",
               "Full Stack Developer",
               "UI Designer",
               "Problem Solver",
@@ -32,33 +35,15 @@ export default function Home2() {
             delaySpeed={1000}
           />
         </div>
-        <div className="hr-icon">
+        <div className="hr-icon mt-3">
           <a href=" https://github.com/Rndurgesh">
-            <img
-              width="60"
-              height="60"
-              src="https://img.icons8.com/ios-filled/50/linkedin.png"
-              alt="linkedin"
-              className="r-r-img"
-            />
+            <FiGithub size={40} />
           </a>
           <a href="https://github.com/Rndurgesh">
-            <img
-              width="64"
-              height="64"
-              src="https://img.icons8.com/glyph-neue/64/github.png"
-              alt="github"
-              className="r-r-img"
-            />
+            <FiLinkedin size={40} />
           </a>
           <a href="https://github.com/Rndurgesh">
-            <img
-              width="50"
-              height="50"
-              src="https://img.icons8.com/ios-filled/50/instagram-new--v1.png"
-              alt="instagram-new--v1"
-              className="r-r-img"
-            />
+            <BsInstagram size={40} />
           </a>
         </div>
       </div>

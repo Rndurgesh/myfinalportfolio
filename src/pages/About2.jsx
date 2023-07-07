@@ -1,23 +1,10 @@
 import React from "react";
 import "./about2.css";
+import resume from "../data/res.pdf";
 
 export default function About2() {
-  const onButtonClick = () => {
-    // using Java Script method to get PDF file
-    fetch("SamplePDF.pdf").then((response) => {
-      response.blob().then((blob) => {
-        // Creating new object of PDF file
-        const fileURL = window.URL.createObjectURL(blob);
-        // Setting various property values
-        let alink = document.createElement("a");
-        alink.href = fileURL;
-        alink.download = "SamplePDF.pdf";
-        alink.click();
-      });
-    });
-  };
   return (
-    <div className="about2">
+    <div className="about2 mt-7">
       <div className="ab">About Me</div>
       <div className="intro">
         <div className="data">
@@ -26,7 +13,14 @@ export default function About2() {
             <div className="aname2">Full Stack Developer</div>
           </div>
           <div className="aresume">
-            <button onClick={onButtonClick}>Download Resume</button>
+            <a
+              href={resume}
+              downoad
+              target="_blank"
+              className="bg-gradient-to-r from-red-500 v to-purple-700 px-4 py-3 text-white"
+            >
+              Download Resume
+            </a>
           </div>
         </div>
         <hr />
@@ -35,7 +29,7 @@ export default function About2() {
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit alias
           sed nihil doloribus necessitatibus quisquam quis incidunt eaque
         </div>
-        <div className="para2">
+        <div className="para2 mb-5">
           cupiditate deserunt nostrum facilis dolore suscipit rem quaerat, esse
           sunt, sequi, ut perferendis accusamus quasi earum reprehenderit. Optio
           debitis id iusto, quidem, suscipit et nihil officiis ipsum distinctio
@@ -44,7 +38,7 @@ export default function About2() {
         <hr />
       </div>
 
-      <div className="skillname ">Programming Skills</div>
+      <div className="skillname mt-6 mb-5 ">Programming Skills</div>
       <div className="a-skill">
         <div className="skill-bars">
           <div className="bar">
@@ -139,9 +133,9 @@ export default function About2() {
           </div>
         </div>
       </div>
+      <hr />
       <div className="a-edu">
         <div className="a-edu-title">Education</div>
-        <hr className="hr" />
         <div className="line">
           <div className="row cf">
             <div className="block fl">
@@ -170,6 +164,7 @@ export default function About2() {
           </div>
         </div>
       </div>
+      <hr />
     </div>
   );
 }

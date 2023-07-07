@@ -22,14 +22,14 @@ export default function Projects() {
             </a>
             <div className="Github_link">
               <a
-                className="gitlink"
+                className="gitlink bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
                 target="_blank"
                 href="https://github.com/Rndurgesh/RealEstateTemplate"
               >
                 Github
               </a>
               <a
-                className="livelink"
+                className="livelink bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
                 target="_blank"
                 href="https://real-estate-template-xi.vercel.app/"
               >
@@ -41,16 +41,16 @@ export default function Projects() {
             <a href="https://blog-app-ui-beta.vercel.app/" target="_blank">
               <img src={p1} alt="project2" className="img" />
             </a>
-            <div className="Github_link">
+            <div className="Github_link ">
               <a
-                className="gitlink"
+                className="gitlink bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
                 target="_blank"
                 href="https://github.com/Rndurgesh/blog-app-uI"
               >
                 Github
               </a>
               <a
-                className="livelink"
+                className="livelink bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
                 href="https://blog-app-ui-beta.vercel.app/"
                 target="_blank"
               >
@@ -66,14 +66,14 @@ export default function Projects() {
             </a>
             <div className="Github_link">
               <a
-                className="gitlink"
+                className="gitlink bg-gradient-to-r from-indigo-500 to-pink-500"
                 target="_blank"
                 href="https://github.com/Rndurgesh/fiverrr-source"
               >
                 Github
               </a>
               <a
-                className="livelink"
+                className="livelink bg-purple-600 "
                 target="_blank"
                 href="https://fiverrr-source.vercel.app/"
               >
@@ -88,16 +88,16 @@ export default function Projects() {
             >
               <img src={p3} alt="project3" className="img" />
             </a>
-            <div className="Github_link">
+            <div className="Github_link ">
               <a
-                className="gitlink"
+                className="gitlink bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
                 target="_blank"
                 href="https://github.com/Rndurgesh/photo_gallery-_proj"
               >
                 Github
               </a>
               <a
-                className="livelink"
+                className="livelink bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
                 target="_blank"
                 href="https://photo-gallery-proj-deploy.vercel.app/"
               >
@@ -106,7 +106,9 @@ export default function Projects() {
             </div>
           </div>
         </div>
+        <hr />
       </div>
+      <hr />
     </div>
   );
 }

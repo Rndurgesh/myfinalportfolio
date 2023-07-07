@@ -32,8 +32,6 @@ export default function Contact() {
     <>
       <div className="c">
         <div className="c-name">Contact</div>
-        <div className="c-name2">Get in Touch</div>
-        <hr />
         <div className="cont">
           <div className="cimgcont">
             <img src={map} alt="" className="c-img" />
@@ -61,7 +59,8 @@ export default function Contact() {
                 type="submit"
                 onClick={handleSend}
                 value="Send"
-                className="sbutton"
+                style={{ backgroundColor: "black" }}
+                className="sbutton text-white uppercase   bg-gradient-to-r from-red-500 to-purple-800"
               >
                 Send
               </button>
@@ -69,7 +68,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <div className="footer"> Thank you 😊😊....</div>
+      <div className="footer "> Thank you 😊😊....</div>
     </>
   );
 }
