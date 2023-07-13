@@ -25,19 +25,19 @@ export default function Navabr() {
       </div>
       <div className="right">
         <div className="rc">
-          <AiOutlineHome size={30} fill="#C84660" />
+          <AiOutlineHome size={30} fill="purple" />
           <span className="name">Home</span>
         </div>
         <div className="rc ">
-          <BsPerson size={30} fill="#C84660" />
+          <BsPerson size={30} fill="purple" />
           <span className="name">About</span>
         </div>
         <div className=" rc">
-          <AiOutlineFundProjectionScreen size={30} fill="#C84660" />
+          <AiOutlineFundProjectionScreen size={30} fill="purple" />
           <span className="name">Projects</span>
         </div>
         <div className="rc">
-          <AiOutlineContacts size={30} fill="#C84660" />
+          <AiOutlineContacts size={30} fill="purple" />
           <span className="name">Contact</span>
         </div>
       </div>

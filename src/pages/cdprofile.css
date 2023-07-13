@@ -40,14 +40,15 @@
   box-shadow: 3px 3px 3px 3px rgb(224, 206, 222);
 }
 .cdcont:hover {
+  text-align: center;
   transition: ease 400ms;
   width: 310px;
   height: 250px;
 }
+
 .cdimg {
   width: 250px;
   border-radius: 10px;
   height: 220px;
-  /* padding: 20px; */
   background-color: white;
 }

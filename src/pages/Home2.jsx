@@ -1,9 +1,8 @@
 import React from "react";
 import "./Home2.css";
 import { Typewriter } from "react-simple-typewriter";
-import { FiGithub } from "react-icons/fi";
-import { FiLinkedin } from "react-icons/fi";
-import { BsInstagram } from "react-icons/bs";
+import { LiaGithubSquare } from "react-icons/lia";
+import { PiLinkedinLogoBold } from "react-icons/pi";
 
 export default function Home2() {
   return (
@@ -35,15 +34,15 @@ export default function Home2() {
             delaySpeed={1000}
           />
         </div>
-        <div className="hr-icon mt-3">
-          <a href=" https://github.com/Rndurgesh">
-            <FiGithub size={40} />
+        <div className="hr-icon mt-3 gap-6">
+          <a href=" https://github.com/Rndurgesh" target="_blank">
+            <LiaGithubSquare size={60} />
           </a>
-          <a href="https://github.com/Rndurgesh">
-            <FiLinkedin size={40} />
-          </a>
-          <a href="https://github.com/Rndurgesh">
-            <BsInstagram size={40} />
+          <a
+            href="https://www.linkedin.com/in/durgesh-solanke-7229a8217/"
+            target="_blank"
+          >
+            <PiLinkedinLogoBold size={50} />
           </a>
         </div>
       </div>

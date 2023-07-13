@@ -10,7 +10,7 @@ export default function About2() {
         <div className="data">
           <div className="name">
             <div className="aname">Durgesh Solanke</div>
-            <div className="aname2">Full Stack Developer</div>
+            <div className="aname2">React Developer</div>
           </div>
           <div className="aresume">
             <a

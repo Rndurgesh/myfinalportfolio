@@ -52,6 +52,7 @@ export default function Contact() {
               />
               <textarea
                 name="message"
+                style={{ resize: "none" }}
                 placeholder="Message"
                 className="ctext"
               />

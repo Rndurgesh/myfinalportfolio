@@ -6,6 +6,7 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Home2 from "./pages/Home2";
 import Cdprofile from "./pages/Cdprofile";
+import P2 from "./pages/P2.jsx";
 
 export default function App() {
   return (
@@ -13,7 +14,7 @@ export default function App() {
       <Navbar />
       <Home2 />
       <About2 />
-      <Projects />
+      <P2 />
       <Cdprofile />
       <Contact />
     </div>

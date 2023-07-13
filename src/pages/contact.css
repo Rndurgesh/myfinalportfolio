@@ -55,6 +55,7 @@ textarea {
 }
 textarea {
   height: 150px;
+  resize: none;
 }
 .sbutton {
   height: 50px;
@@ -66,9 +67,9 @@ textarea {
 
 .footer {
   display: flex;
-  background-image: linear-gradient(rgb(255, 255, 255), rgb(185, 180, 180));
+  background-image: linear-gradient(whitesmoke, rgb(164, 163, 163));
   color: #c84660;
-  height: 70px;
+  height: 90px;
   justify-content: center;
   align-items: center;
   font-size: 30px;

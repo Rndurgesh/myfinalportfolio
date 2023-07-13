@@ -326,7 +326,8 @@ p {
   left: 50%;
 }
 .block:hover {
-  background-color: rgb(223, 208, 220);
+  background-color: rgb(212, 207, 207);
+  border-radius: 5px;
 }
 .fl {
   float: left;
