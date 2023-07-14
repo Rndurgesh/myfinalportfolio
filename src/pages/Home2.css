@@ -39,7 +39,7 @@
   border-bottom-left-radius: 70% 40%;
   overflow: hidden;
   animation: morph 15s ease-in-out 1s infinite;
-  background-image: url("../data/me.jpg");
+  background-image: url("../data/mecolor.jpg");
 }
 
 @keyframes morph {
