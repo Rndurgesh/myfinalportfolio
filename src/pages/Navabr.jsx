@@ -10,7 +10,7 @@ export default function Navabr() {
   return (
     <div className="navbar ">
       <div className="left">
-        {/* <img src={logo} alt="react-logo" className="logo" /> */}
+        {/* <img src={logo} alt="react-logo" className="logo" /> */} 
         {/* <img src="" alt="logo" className="logo" /> */}
         <BiLogoReact size={45} fill="purple" />
         <div className="container">
