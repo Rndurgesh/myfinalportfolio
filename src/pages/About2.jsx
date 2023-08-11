@@ -26,14 +26,16 @@ export default function About2() {
         <hr />
 
         <div className="para">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit alias
-          sed nihil doloribus necessitatibus quisquam quis incidunt eaque
+          👋 Hello there! I'm <>Durgesh</>, a passionate React developer on a
+          journey to create captivating and seamless user experiences.
         </div>
         <div className="para2 mb-5">
-          cupiditate deserunt nostrum facilis dolore suscipit rem quaerat, esse
-          sunt, sequi, ut perferendis accusamus quasi earum reprehenderit. Optio
-          debitis id iusto, quidem, suscipit et nihil officiis ipsum distinctio
-          quibusdam aut facilis omnis?
+          With a strong foundation in web development and a keen eye for UI/UX
+          design, I've dedicated myself to mastering the art of building dynamic
+          and responsive web applications using the power of React. What sets me
+          apart is my commitment to writing clean, maintainable code that not
+          only works seamlessly but is also a joy for other developers to work
+          with.
         </div>
         <hr />
       </div>

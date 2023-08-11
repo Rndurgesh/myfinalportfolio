@@ -20,7 +20,7 @@
   font-size: 30px;
 }
 .navName {
-  background-image: linear-gradient(to right, red, yellow);
+  background-image: linear-gradient(to right, rgb(220, 92, 92), yellow);
   background-clip: text;
   color: transparent;
   padding: 5px 15px;
@@ -35,14 +35,13 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  color: rgb(100, 45, 100);
+  color: rgb(199, 29, 199);
 }
 .rc {
   display: flex;
-  align-items: center;
+  justify-content: center;
   gap: 10px;
-  height: 35px;
-  width: fit-content;
+  height: 40px;
   padding: 5px;
 }
 .img-icon {
@@ -50,7 +49,11 @@
   width: 25px;
 }
 .name {
-  font-size: 17px;
-  font-weight: 400;
-  letter-spacing: 0.5px;
+  font-size: 18px;
+  color: rgb(123, 51, 118);
+  /* font-weight: 500; */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
+}
+.name:hover {
+  color: #dc5c5c;
 }

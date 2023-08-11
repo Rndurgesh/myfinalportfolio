@@ -10,13 +10,13 @@ export default function Navabr() {
   return (
     <div className="navbar ">
       <div className="left">
-        {/* <img src={logo} alt="react-logo" className="logo" /> */} 
+        {/* <img src={logo} alt="react-logo" className="logo" /> */}
         {/* <img src="" alt="logo" className="logo" /> */}
         <BiLogoReact size={45} fill="purple" />
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center">
-              <h3 className="navName  bg-gradient-to-r from-red-500 v to-purple-700">
+              <h3 className="navName  bg-gradient-to-r from-red-500 v to-purple-600">
                 React Developer
               </h3>
             </div>
